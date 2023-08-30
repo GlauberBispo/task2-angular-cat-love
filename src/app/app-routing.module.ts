@@ -10,7 +10,7 @@ import { ServicosComponent } from './servicos/servicos.component';
 import { AgendaComponent } from './agenda/agenda.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
   { path: 'contato', component: ContatoComponent},
   { path: 'galeria', component: GaleriaComponent},
   { path: 'veterinarios', component: VeterinariosComponent},
