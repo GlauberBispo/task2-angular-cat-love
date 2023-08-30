@@ -1,0 +1,16 @@
+<main>
+<section class="content">
+  <h2>Nossos hóspedes</h2>
+  <div class="grid" cols="2" rowHeight="2:1">
+    <div *ngFor="let cat of cats">
+      <div class="img-container">
+        <img class="cat-img" [id]="cat.id" [src]="cat.url" alt="" />
+      </div>
+    </div>
+  </div>
+  <button mat-button color="accent" routerLink="/agenda">Agende sua hospedagem</button>
+</section>
+</main>
+
+
+

@@ -1,0 +1,80 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    height: 600px;
+    background: url('../../assets/CATLOVE_FUNDO_BANNER_PRINCIPAIL.webp');
+    background-repeat: repeat-x;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 50% 50%;
+    h2 {
+        width: 30vw;
+        font-size: 3rem;
+        color: white;
+        height: 30vh;
+        text-align: center;
+        letter-spacing: 4px;
+        line-height: 3rem;
+        margin-top: 5rem;
+
+        strong {
+            color: yellow;
+        }
+    }
+}
+
+.playground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; 
+    padding: 2rem;
+
+    h2 {
+        font-size: 1.9rem;
+        color: #ff4081;
+        padding-top: 3rem;
+    }
+
+    aside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            width: 40%;
+
+            h3 {
+                color: #ff4081;
+                text-decoration: underline;
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+
+            span{
+                font-size: 1rem;
+
+                strong {
+                    color: #ff4081;
+                }
+            }
+        }
+    }
+
+
+}

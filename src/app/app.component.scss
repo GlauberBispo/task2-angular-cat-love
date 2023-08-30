@@ -1,0 +1,65 @@
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+
+.img {
+  max-width: 48px;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.barra {
+  cursor: pointer;
+}
+
+.foto {
+  max-width: 300px;
+}
+
+.mat-grid-tile-content {
+  width: 100%;
+}
+
+.cat-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  button {
+    font-size: 1rem;
+    margin: 1rem;
+
+    &:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+  }
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+
+  mat-icon{
+    margin-right: 2rem;
+  }
+
+  a {
+    color: white;
+  }
+}
